@@ -51,7 +51,7 @@ export default function Home() {
         ))}
         <button
           className="w-full bg-blue-500 text-white py-2 rounded mt-2"
-          onClick={() => setPortfolio({ fixed_income: 0, stocks: 0, dollar: 0 })}
+          onClick={() => setPortfolio({"Renda Fixa": 0, "FIIs": 0, "Ações":0, "Exterior":0})}
         >
           Add Default Assets
         </button>
